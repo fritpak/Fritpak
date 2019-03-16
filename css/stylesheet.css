@@ -3,24 +3,24 @@
   border: 2px solid black;
 }
 body {
-  background-color:white;
+  background-color: grey;
   font-family: sans-serif;
 }
 
 header {
-  background-color: rgb(253, 226, 25);
+  background-color: #003366;
   padding: 0.5em;
   border-radius: 5px;
 }
 /*rgb(253, 226, 25), F6EE5C*/
 aside {
-  background-color: rgb(253, 226, 25);
+  background-color: #003366;
   padding: 0.5em;
   border-radius: 5px;
 }
 article {
   padding: 0.5em;
-  background-color: rgb(253, 226, 25);
+  background-color: #003366;
   border-radius: 5px;
 }
 #grid {
