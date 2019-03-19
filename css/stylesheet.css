@@ -1,0 +1,317 @@
+#logo {
+  height:4em;
+  border: 2px solid black;
+}
+body {
+  background-color: #06AED5;
+  font-family: sans-serif;
+}
+#header2 {
+  display: none;
+}
+header {
+  background-color: rgb(253, 226, 25);
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 2px solid #FFF1D0;
+}
+#header2 {
+  background-color: rgb(253, 226, 25);
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 2px solid #FFF1D0;
+}
+/*rgb(253, 226, 25), F6EE5C, #003366*/
+aside {
+  background-color: rgb(253, 226, 25);
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 2px solid #FFF1D0;
+}
+article {
+  padding: 0.5em;
+  background-color: rgb(253, 226, 25);
+  border-radius: 5px;
+  border: 2px solid #FFF1D0;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.3fr;
+}
+#intro-aside {
+  color: white;
+  text-shadow: 2px 2px black;
+  border-radius: 5px;
+}
+#merch-aside {
+  background-color: white;
+  border: 2px solid cyan;
+  border-radius: 6px;
+  margin-top: 1em;
+  text-align: center;
+  padding: 0.5em;
+}
+#merchlink {
+  text-decoration:none;
+  color:white;
+}
+#merchlink:hover {
+  text-decoration:none;
+  color: yellow;
+}
+#active {
+  background-color: red;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+}
+header a {
+  text-decoration: none;
+  float:right;
+  margin-right:-10px;
+  border-top: 2px solid brown;
+  border-left: 2px solid brown;
+  border-bottom: 2px solid brown;
+  padding-right: 10px;
+  padding: 0.5em;
+  padding-left: 3em;
+  background-color:brown;
+  color:white;
+  font-size: 1em;
+}
+#grid-nav {
+  display:grid;
+  grid-template-columns: 1fr;
+}
+#header2 a {
+  padding: 0.3em;
+  margin-right: -0.45em;
+  color: white;
+  background-color: brown;
+  width: 1em;
+  margin-right: 0.01em;
+  font-size: 1em;
+  text-decoration: none;
+}
+#header2 #active {
+  background-color: red;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+}
+#merch-aside img {
+  width: 8em;
+  border: 2px solid cyan;
+  border-radius: 6px;
+}
+#merch-aside button {
+  border-radius: 4px;
+}
+#merch-aside button:hover {
+  border-radius: 4px;
+  background-color: grey;
+}
+#naam-site {
+  margin-top: 1.1em;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 1.6em;
+  margin-right: 6px;
+}
+#kleinegrid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+#panel {
+  position: fixed;
+}
+header {
+  position: absolute;
+  left: 2vh;
+  height: auto;
+  width: 17vw;
+  top: 2vh;
+}
+#headerenmain {
+  position:relative;
+}
+aside {
+  position: absolute;
+  top: 47vh;
+  left: 2vh;
+  top: 2vh;
+  width: 17vw;
+}
+article {
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+  width: 73vw;
+}
+header:hover {
+  -webkit-box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+-moz-box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+}
+aside:hover {
+  -webkit-box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+-moz-box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+}
+article:hover {
+  -webkit-box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+-moz-box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
+}
+#merchlink {
+  text-align: center;
+  font-size: 1.2em;
+}
+#volledigscherm, #normaalscherm {
+  border-radius: 4px;
+  margin: 0.5em;
+}
+#volledigscherm, #normaalscherm {
+  background-color: white;
+  color: black;
+}
+@media screen and (max-width: 1250px) {
+  #kleinegrid {
+    grid-template-columns: 1fr;
+  }
+  #naam-site {
+    margin-top: -0.5em;
+  }
+  header {
+    height: auto;
+  }
+  aside {
+    top: 55vh;
+  }
+  #panel {
+    position: absolute;
+  }
+}
+@media screen and (max-width: 950px) {
+  aside {
+    display: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  article {
+    width: 60vw;
+  }
+  header {
+    width: 25vw;
+  }
+  #volledigscherm, #normaalscherm {
+  display: none;
+}
+}
+@media screen and (max-width: 680px) {
+  article {
+    width: 57vw;
+  }
+  header {
+    width: 27vw;
+  }
+}
+@media screen and (max-width: 520px) {
+  article {
+    width: 53vw;
+  }
+  #naam-site {
+    font-size: 1.3em;
+  }
+  header {
+    width: 27vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  #header2 {
+    display: block;
+    position: absolute;
+    width: 90.5vw;
+    top: 2vh;
+    left: 1vw;
+    height: 10vh;
+  }
+  header {
+    display: none;
+  }
+  p {
+    display: inline;
+  }
+  #kleinegrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -0.9em;
+  }
+  #naam-site2 {
+    margin-top: 1.5em;
+    margin-left: -1.3em;
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+  #joinks {
+    position: absolute;
+    width: 90.5vw;
+    left: 1vw;
+    top: 18vh;
+  }
+  nav {
+    width: 32vw;
+    margin-top: 2em;
+  }
+  #grid-nav2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 450px) {
+  article {
+    width: 45vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  #naam-site {
+    font-size: 1.15em;
+  }
+}
+@media screen and (max-width: 350px) {
+  #naam-site {
+    font-size: 1em;
+  }
+  #logo {
+    height: 2em;
+  }
+  nav a, #active {
+    font-size: 0.8em;
+    padding-right: 1.5em;
+    width: 2em;
+  }
+}
+@media screen and (max-height: 780px) {
+  aside {
+    top: 55vh;
+  }
+  #panel {
+    position: absolute;
+  }
+}
+@media screen and (max-height: 650px) {
+  aside {
+    top: 65vh;
+  }
+}
+@media screen and (max-height: 600px) {
+  aside {
+    top: 70vh;
+  }
+}
+@media screen and (max-height: 520px) {
+  aside {
+    display: none;
+  }
+}
