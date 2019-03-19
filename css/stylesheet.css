@@ -236,6 +236,9 @@ box-shadow: 0px 0px 38px -1px rgba(0,0,0,0.53);
     left: 1vw;
     height: 10vh;
   }
+  #logo {
+    height: 1.8em;
+  }
   header {
     display: none;
   }
